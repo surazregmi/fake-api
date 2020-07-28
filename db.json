@@ -1,11 +1,26 @@
 {
-  "posts": [
+  "teachers": [
     {
       "id": 1,
-      "title": "hello"
+      "name": "Suraj Regmi",
+      "class": "Maths"
     }
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "students": [
+     {
+        "id": 1,
+      "name": "Sairus Regmi",
+      "score": "0"
+      }
+  ],
+"assessments": [
+     {
+        "id": 1,
+      "student": 1,
+      "score": "10",
+      "startDate": "2020-01-01",
+      "submittedDate": "2020-01-03",
+           "verified":false
+      }
+  ]
 }
